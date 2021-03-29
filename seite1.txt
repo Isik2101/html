@@ -1,22 +1,12 @@
-<!DOCTYPE html>
-<html lang="de">
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3. Versuch</title>
-</head>
 
-<a>
-    <h1 id="oben"><a href="#unten"> Und schon die dritte Seite! Wirklich</h1></a>
-    <ol>
-    <!-- 1. Andere webseite -->
-    <li><a href="https://www.google.com/" target="_blank">1. Andere Webseite</a></li>
-     <!-- 2. Lokale seite-->
-     <li><a href="seite2.html">2. Lokale Seite</a></li>
-     <p>
-     
-     <!-- 3. Innerhalb der eigenen Seite-->
-     <li id ="unten"><a href="#oben">Innerhalb der eigenen Seite</a></li>
-     </ol>
-    
+<title>Meine erste Webseite</title>
+
+<body>
+<h1>Begrüßung</h1>
+<p>Hallo, lebe Gruppe</p>
+</body>
+
+</html>
