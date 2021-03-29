@@ -1,18 +1,10 @@
-h1 {
-    color :red;
+h1{
+    color: blue
 }
-h2{
-    color : green;
-}
-
-body { 
-    background-color: gray;
+h3{
+    font-size: 2,5em;
 }
 
-#absatz{
-    color:yellow;
-}
-
-#absatz{
-    color:blue;
+.gruen{
+    color:green;
 }

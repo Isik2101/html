@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="de">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css" />
+<title>Lebenslauf</title>
+</head>
+
+<br>
+    <h1>Lebenslauf</h1>
+    <h2>Maximiliam Musterman</h2><hr></hr>
+</br>
+<h3>Datenbank-Spezialist</h3>
