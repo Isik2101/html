@@ -1,0 +1,51 @@
+.body{
+    float: left;
+    height: 98vh;
+    width: 98vw;
+}
+.head{
+    float: left;
+    height: 15%;
+    width: 100%;
+    background-color: brown;
+}
+.center{
+    float: left;
+    height: 75%;
+    width: 100%;
+    background-color: rgb(12, 36, 12);
+}
+.footer{
+    float: left;
+    height: 10%;
+    width: 100%;
+    background-color: lightgreen;
+}
+.menu{
+    float: left;
+    height: 100%;
+    width: 20%;
+    background-color: gray;
+    outline:solid;
+}
+.side{
+    float:left ;
+    height: 100%;
+    width: 30%;
+    background-color: greenyellow;
+}
+.ma{
+    float: left;
+    height: 50%;
+    width: 100%;
+    background-color: greenyellow;
+}
+.inhalt{
+    float: left;
+    height: 100%;
+    width: 70%;
+    background-color: hotpink;
+}
+.p{
+    text-align: center;
+}
