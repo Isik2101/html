@@ -34,11 +34,17 @@
     width: 30%;
     background-color: greenyellow;
 }
-.ma{
+.ma1{
     float: left;
     height: 50%;
     width: 100%;
     background-color: greenyellow;
+}
+.ma2{
+    float: left;
+    height: 50%;
+    width: 100%;
+    background-color: aqua;
 }
 .inhalt{
     float: left;
