@@ -1,0 +1,97 @@
+*{
+  box-sizing: border-box; 
+  float: left; 
+}
+div {
+  border: thin solid gray ;
+ }
+ .row {
+  width: 95vw;
+  height: auto ;
+  }
+  /* Schmale Bildschirme */
+  /* Mobile First */
+
+    .col-1{
+      width:100%;
+      height: auto;
+    }
+
+    .col-2{
+      width: 100%;
+      height: auto;
+    }
+    .col-3{
+      width: 100%;
+      height: auto;
+    }
+    .col-4{
+      width: 100%;
+      height: auto;
+    }
+    .col-5{
+      width: 100%;
+      height: auto;
+    }
+    .col-6{
+      width: 100%;
+      height: auto;
+    }
+
+
+@media (min-width: 50em) {
+  /* Mitlere Bildschirme */
+      .col-1{
+        width: 33.3%;
+        height: auto;
+      }
+
+      .col-2{
+        width: 33.3%;
+        height: auto;
+      }
+      .col-3{
+        width: 66.6%;
+        height: auto;
+      }
+      .col-4{
+        width: 66.6%;
+        height: auto;
+      }
+      .col-5{
+        width: 100;
+        height: auto;
+      }
+      .col-6{
+        width: 100%;
+        height: auto;
+      }
+      }
+@media (min-width: 80) {
+  /* Große Bildschirme */
+      .col-1{
+        width: 16.6%;
+        height: auto;
+      }
+
+      .col-2{
+        width: 33.3%;
+        height: auto;
+      }
+      .col-3{
+        width: 50%;
+        height: auto;
+      }
+      .col-4{
+        width: 66.6%;
+        height: auto;
+      }
+      .col-5{
+        width: 83.3%;
+        height: auto;
+      }
+      .col-6{
+        width: 100%;
+        height: auto;
+      }
+}      
