@@ -1,21 +1,15 @@
 
+
 .hero-section {
-    background: url("https://istanbul-tourist-information.com/wp-content/uploads/2021/01/COVER-Ortako%CC%88y-Grand-Mecidiye-Mosque-in-Istanbul.jpg") 50% no-repeat;
-    background-size: cover;
-    height: 60vh;
-    text-align: center;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
+  background: url(https://istanbul-tourist-information.com/wp-content/uploads/2021/01/COVER-Ortako%CC%88y-Grand-Mecidiye-Mosque-in-Istanbul.jpg) 50% no-repeat;
+  background-size: cover;
+  height: 60vh;
+  text-align: center;
   
-  .hero-section .hero-section-text {
+  
+}
+
+ .hero-section .hero-section-text {
     color: #fefefe;
     text-shadow: 3px 3px 3px #c8adad;
   }
@@ -26,8 +20,10 @@
 
  
 .featured-image-block-grid-header {
-    margin-left: auto; 
-    margin-right: auto;
+  
+  float: left;
+  width: auto; 
+  height: auto;
   }
   
   .featured-image-block {
