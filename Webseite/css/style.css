@@ -5,11 +5,13 @@
   background-size: cover;
   height: 60vh;
   text-align: center;
+  display: outside;
   
   
 }
 
  .hero-section .hero-section-text {
+
     color: #fefefe;
     text-shadow: 3px 3px 3px #c8adad;
   }
@@ -21,19 +23,18 @@
  
 .featured-image-block-grid-header {
   
-  float: left;
   width: auto; 
   height: auto;
   }
   
   .featured-image-block {
-    margin-bottom: 20px;
+    margin-bottom:50px;
   }
   
   .featured-image-block .featured-image-block-title {
-    font-weight: 600;
+    font-weight: 300;
     margin-top: 10px;
-    text-transform: uppercase;
+    text-transform: full-width;
     letter-spacing: 1px;
     font-size: 1em;
     color: #404040;
