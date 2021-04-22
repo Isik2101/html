@@ -17,6 +17,7 @@
   }
   
  .container-fluid{
+   
      background-color: rgb(228, 214, 213);
  } 
 
@@ -28,7 +29,7 @@
 }
 
 .featured-image-block {
-  margin-bottom: 20px;
+   margin-bottom: 20px;
 }
 
 .featured-image-block .featured-image-block-title {
@@ -43,6 +44,7 @@
 .featured-image-block a:hover p {
   color: #1779ba;
 }
+
 
 
   
