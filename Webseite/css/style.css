@@ -32,14 +32,24 @@
    margin-bottom: 20px;
 }
 
-.featured-image-block .featured-image-block-title {
+/* .featured-image-block .featured-image-block-title {
+ 
   font-weight: 600;
   margin-top: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 1em;
   color: #404040;
+} */
+.überschrift {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1em;
+  float: left;
+
 }
+
+
 
 .featured-image-block a:hover p {
   color: #1779ba;
@@ -49,8 +59,35 @@
   height:20%;
   width: 100%;
   background-color: antiquewhite;
-
 }
+
+
+.work-feature-block {
+  padding: 10px 0;
+  border-top: 1px solid #cacaca;
+  border-bottom: 1px solid #cacaca;
+}
+
+.work-feature-block-image {
+  display: block;
+  margin: auto;
+  padding: 10px 0;
+}
+
+
+
+
+.bildgröse{
+  float: left;
+  width: 500px;
+  height: 300px;
+}
+.para {
+  float: right;
+  margin-left: 10%;
+  padding: 10%;
+}
+
 
 
 
