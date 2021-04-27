@@ -23,10 +23,10 @@
 
  
 
- .featured-image-block-grid-header {
+ /* .featured-image-block-grid-header {
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 .featured-image-block {
    margin-bottom: 20px;
@@ -61,29 +61,13 @@
   background-color: antiquewhite;
 }
 
-
-.work-feature-block {
-  padding: 10px 0;
-  border-top: 1px solid #cacaca;
-  border-bottom: 1px solid #cacaca;
-}
-
-.work-feature-block-image {
-  display: block;
-  margin: auto;
-  padding: 10px 0;
-}
-
-
-
-
 .bildgröse{
   float: left;
   width: 500px;
   height: 300px;
 }
 .para {
-  float: right;
+  float: left;
   margin-left: 10%;
   padding: 10%;
 }
