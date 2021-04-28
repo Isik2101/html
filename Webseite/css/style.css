@@ -15,16 +15,17 @@
   }
 
   .content {
-    border: 1px solid rgba(133, 133, 133, 0.322);
-    display: grid;
-    grid-template-columns: auto auto auto;
+    
+    display:flex;
+    flex-wrap: wrap;
     padding: 20px;
     margin: 15px;
     justify-content: space-evenly;
+    background-color: rgb(228, 214, 213);
   }
 
   .grid-item {
-    border: 1px solid rgba(133, 133, 133, 0.322);
+    
     padding: 10px;
     margin: 10px;
     height: max-content;
@@ -36,6 +37,12 @@
     height: 200px;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+  .museum-bild {
+    width: 100%;
+    height: auto;
   }
 
   .container-fluid {
@@ -84,12 +91,14 @@
   background-color: antiquewhite;
 }
 
-.para {
-  float: left;
-  height: 50%;
-  width: 50%;
-  margin-left: 10%;
-  padding: 10%;
+.container-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.museum-item {
+ display: flex;
+ background-size: cover;
 }
 
 
