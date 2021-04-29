@@ -1,67 +1,112 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="startseite.html">Startseite</a>
-          <a class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </a>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="navbar-brand nav-link active" aria-current="page" href="bilder.html">Bilder</a>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="startseite.html">Startseite</a>
+      <a class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="navbar-brand nav-link active" aria-current="page" href="bilder.html">Bilder</a>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-brand nav-link active" aria-current="page" href="museum.html">Museum</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="navbar-brand nav-link active" href="geschichte.html" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-current="page">
+              Geschichte
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="byzans.html">Byzans</a></li>
+              <li><a class="dropdown-item" href="osmanisches reich.html">Osmanisches Reich</a></li>
+              <li>
+                <hr class="dropdown-divider">
               </li>
-              <li class="nav-item">
-                <a class="navbar-brand nav-link active" aria-current="page" href="museum.html">Museum</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="navbar-brand nav-link active" href="geschichte.html" id="navbarDropdown" role="button"
-                  data-bs-toggle="dropdown" aria-current="page">
-                  Geschichte
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="byzans.html">Byzans</a></li>
-                  <li><a class="dropdown-item" href="osmanisches reich.html">Osmanisches Reich</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="algemein">Algemein</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="navbar-brand nav-link active" href="impressum.html" tabindex="-1" aria-disabled="true">Impressum</a>
-              </li>
+              <li><a class="dropdown-item" href="algemein">Algemein</a></li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-      
+          </li>
+          <li class="nav-item">
+            <a class="navbar-brand nav-link active" href="impressum.html" tabindex="-1"
+              aria-disabled="true">Impressum</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Suche" aria-label="Suche">
+          <button class="btn btn-outline-success" type="submit">Suche</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+  <div class="container-fluid">
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <div class="osmanisches-item">
+      <a href="pics/Osmanisches Reich.jpg" data-lightbox="photos">
+        <img class="osmanisches-bild" src="pics/Osmanisches Reich.jpg" />
+        <a href="pics/Fatih Sultan Mehmet.jpg" data-lightbox="photos">
+          <img class="osmanisches-bild" src="pics/Fatih Sultan Mehmet.jpg" />
+        </a>
+    </div>
+    <p>Zu Beginn des 14. Jahrhunderts entstand in Westanatolien aus dem Fürstentum des Osmans das Osmanische Reich, das
+      sich über 600 Jahre lang als ein Vielvölkerstaat über drei Kontinente erstreckte und verschiedene Völker und
+      Religionen vereinigte. Im Laufe seines Bestehens in Südeuropa und im Nahen Osten entwickelte sich das Osmanische
+      Reich zu einem multikonfessionellen Gemeinwesen, auf dessen Boden Juden, Christen und Muslime ohne schwerwiegende
+      religiöse Konflikte zusammenlebten.<br>
+       Mit dem Sieg der Seldschuken über die byzantinische Streitmacht begann das
+      Eindringen der Türken in das Gebiet der heutigen Türkei. Im Jahre 1071 schlug Alp Arslan im östlichen Anatolien
+      das byzantinische Heer bei Manzikert (heute: Malazgirt) und öffnete den Türken die Tore Anatoliens. Das Reich der
+      Seldschuken expandierte bis in die westlichen Teile Kleinasiens und erreichte unter der Herrschaft von Alaaddin
+      Kaykubad I (1220-1237) seinen Höhepunkt des Sultanats. Ende des 13. Jahrhunderts wurde das Seldschukenreich von
+      der Invasion der Mongolen bedroht.<br>
+       Das Reich zerfiel in kleinere Fürstentümer, die zwar weiterhin unter der
+      Oberherrschaft der Rum-Seldschuken standen, doch ihre Gebiete selbstständig regieren konnten. Das Fürstentum des
+      Osmans war einer von diesen Kleinfürstentümern, der das Fürstentum 1288 von seinem Vater Ertugrul Gazi übernahm
+      und begann die im Westen Anatoliens vorhandenen Byzantinern zu bekämpfen.<br>
+       Zwischen 1298 und 1301 fanden die
+      ersten wichtigen Eroberungen Osmans statt, als er eine Reihe Festungen in Nordwestanatolien besetze. In diesem
+      Zeitraum wird das Jahr 1299 als das Gründungsdatum des Osmanischen Reiches datiert. So vergrößerte er sein
+      Herrschaftsgebiet von 1500 km2 am Marmarameer bis zu seinem Tod auf ca. 18.000 km2. Nachdem der letzte
+      seldschukische Sultan Alaeddin Kaykubad III ermordet worden war, zerfiel das Seldschukenreich endgültig in
+      kleinere Einheiten und Osman war von nun an der selbstständige Herrscher seines Gebiets.<br> Die Eroberten Gebiete
+      waren überwiegend von Christen bewohnte Orte der Byzantiner. Durch den Sieg in Baphaion/Koyunhisar im Jahre 1301
+      gegen ein 2000-Mann-Kontingent der byzantinischen Armee erlangte Osman Ruhm und hohes Ansehen von anderen
+      Kleinfürstentümern, die sich an seine Herrschaft anschlossen und das Reich verstärkten. Damit begann der über ein
+      Jahrhundert dauernde Feldzug zur Eroberung der oströmischen Territorien, der 1453 mit der Einnahme Konstantinopels
+      abgeschlossen wurde.</p>
+  </div>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
-    -->
-  </body>
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+    integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
