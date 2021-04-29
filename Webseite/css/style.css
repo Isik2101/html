@@ -13,6 +13,7 @@
     color: #fefefe;
     text-shadow: 3px 3px 3px #c8adad;
   }
+  /* Bilder Seite */
 
   .content {
     
@@ -40,10 +41,7 @@
 
   }
 
-  .museum-bild {
-    width: 100%;
-    height: auto;
-  }
+ 
 
   .container-fluid {
     background-color: rgb(228, 214, 213);
@@ -91,17 +89,25 @@
   background-color: antiquewhite;
 }
 
+/* Museum */
+
 .container-column {
   display: flex;
   flex-direction: column;
+  background-color: rgb(228, 214, 213) ;
 }
 
 .museum-item {
- display: flex;
+ display: flex; 
  background-size: cover;
 }
 
-
+.museum-bild {
+  width: 500;
+  height: 300;
+  padding: 20px;
+  margin: 15px;
+}
 
 
   
