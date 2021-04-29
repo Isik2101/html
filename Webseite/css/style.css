@@ -103,11 +103,25 @@
 }
 
 .museum-bild {
-  width: 500;
-  height: 300;
+  width:100%;
+  height:50%;
   padding: 20px;
   margin: 15px;
 }
+
+/* Byzans */
+.byzans-item {
+  display: flex; 
+  background-size: cover;
+
+}
+
+/* .byzans-bild {
+  
+
+
+
+} */
 
 
   
